@@ -1,0 +1,560 @@
+
+
+.logo {
+	background: url(http://www.startupturkey.com/Images/logo.png);
+	width: 215px;
+	height: 33px;
+	position: relative;
+}
+body {
+		font-family: "PT Sans";
+		font-weight: 300;}
+nav {position: absolute;
+	z-index: 4;
+	padding: 40px;
+	right: 0;
+	top:0;
+	left: 0;
+	transition: .5s all;}
+nav ul {position: absolute;
+		right: 50px;
+		top: 30px;
+		list-style-type: none;
+
+
+}
+nav ul li {display: inline-block;
+			position: relative;
+			text-transform: uppercase;
+}
+nav li a {
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+padding-right: 10px;
+padding-left: 10px;
+
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 500;
+	opacity:  .7;
+	background-color: transparent;
+}
+nav li a:hover{cursor: auto;
+			}
+.btn {background: none;
+			border: 1px solid  #fff;
+			height: auto;
+			color: #fff;
+			border-radius: 0;
+			font-size: 16px;
+			display: inline-block;
+			margin-bottom: 0;
+			line-height: 1.428571429;
+			text-align: center;
+			white-space: nowrap;
+			vertical-align: middle;
+			font-weight: 300;
+			padding: 8px 15px;
+			margin-top: -3px;
+			outline: none;
+			text-decoration-color: white;}
+nav button:hover {cursor: pointer;
+border:none;
+background-color: #e76171;}
+.fa {display: inline-block;
+	font-family:  FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+line-height: 1;
+-webkit-font-smoothing: antialiased;
+color: #ff291c;
+font-size: 18px;}
+.overlay{
+	background: url(http://www.startupturkey.com/Images/video-overlay.png);
+	background-size: 100% 110%;
+	position: absolute;
+
+}
+.hidden{display: block;}
+video {opacity: 1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+z-index: 1;
+transform: translate(-50%,-50%);
+transition: 2s all;
+object-fit: contain;}
+.slogan{position: relative;
+		z-index: 4;
+		top: 40%;
+		transform: translateY(-60%);
+		text-align: center;}
+.slogan h2{ color: #fff;
+			font-family: 'Titillium Web', sans-serif;
+			font-weight: 300;
+			font-size: 72px;
+			margin-bottom: 0; }
+.slogan h2{margin-top: 70px;
+display: block;
+}
+.slogan h3{font-size: 62px;
+	margin-top: 0px;
+	color: #fff;
+font-family: 'Titillium Web', sans-serif;
+font-weight: 300;
+margin-bottom: 0;
+}
+.slogan p {color: #fff;
+			font-weight: 300;
+			font-size: 22px;
+			margin-top: 10px;}
+.form-newsletter{margin-top: 0px;
+				display: block;}
+.form-control{font-size: 20px;
+			padding:15px 15px;
+			border-radius: 0;
+			box-shadow: none;
+			border: none;
+			height: auto;
+			width: 440px;
+			line-height: 1.428571429;
+			color: #555;
+			vertical-align: middle;
+			background-color: #fff;
+			background-image: none;
+			transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;}
+input {margin-top: 150px;
+margin-left: 320px;}
+.btn-news{
+	border: 0;
+	font-size: 20px;
+	font-family: 'PT Sans';
+	padding: 15px 40px;
+	background: #c63a46;
+	color: #fff;
+	height: auto;
+	border-radius: 0;
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: normal;
+	line-height: 1.428571429;
+	text-align: center;
+	white-space: nowrap;
+	cursor: pointer;
+	vertical-align: middle;
+	margin-top: 150px;
+
+}
+.fa-volume-off{display: inline-block;
+	font-family:  FontAwesome;
+	font-style: normal;
+color: white;
+font-size: 40px;
+position: absolute;
+width: 40px;
+height: 40px;
+cursor: pointer;}
+.volume{float: right;
+	margin-right: 50px;
+	margin-top: 50px;}
+
+.presek{ background: url(http://www.startupturkey.com/Images/cut-left.png);
+		bottom center;
+		background-size: 100% 60px;
+		padding: 100px 0 200px 0;
+		margin-top: -128px;
+		margin-bottom: -120px;
+		position: relative;
+		z-index: 3;
+		width: 100%;
+		
+		margin-left: -7px;
+		
+		background-repeat: no-repeat; }
+
+.container{padding-right: 15px;
+			padding-left: 15px;
+			padding-right: auto;
+			padding-left: auto;}
+.row{margin-right: ;
+	margin-left: 110px;
+width: 30%;}
+.row h3{font-family:'Titillium Web', sans-serif;
+		font-size: 60px;
+		color: #c63a46;
+		line-height: 60px; }
+.row2{width: 58%;
+float: right;
+margin-top: -245px;
+margin-right: 110px;}
+.row2 p {font-family: 'PT Sans', sans-serif;
+font-size: 18px;
+font-weight: 300;
+padding-left: 15px;
+padding-right: 15px;
+min-height: 1px;
+color: #555;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.row2 p button {margin-top: 40px;
+				background: none;
+				border: #c63a46 1px solid;
+				color: #c63a46;
+				padding: 15px 30px;
+				height: auto;
+				font-size: 16px;
+				cursor:auto;
+				margin-left: 120px;
+				font-family: 'PT Sans', sans-serif;}
+.row2 p button:hover {background: #c63a46;
+cursor: auto;
+color: white;}
+.deo2 {background: url(http://www.startupturkey.com/Images/collage.jpg) fixed;
+
+background-size:cover;
+font-size:30px;
+color:#fff;
+padding:200px 0 100px 0;
+position:relative;
+height: 300px;
+margin-top: 300px;}
+.overlay2{
+	position: absolute;
+	z-index: 2;
+	background: url(http://www.startupturkey.com/Images/pattern.png), rgba(0,0,0,.5);
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.numbers{z-index: 2;
+		position: relative;
+		margin-left: 150px;}
+.tri {font-size: 100px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+display: block;
+color: #fff;
+line-height: 120px;
+}
+.numbers2{
+	z-index: 2;
+	position: relative;
+	margin-left: 350px;
+	margin-top: -160px;
+}
+.numbers3{
+	z-index: 2;
+	position: relative;
+	margin-left: 200px;
+	margin-top: -160px;
+	text-align: center;
+}
+.numbers4{z-index: 2;
+position: relative;
+margin-left: 1000px;
+margin-top: -160px;}
+.presek2{background: url(http://www.startupturkey.com/Images/cut-bottom-left.png) bottom center;
+	    background-size: 100% 59px;
+    padding: 100px 0 90px 0;
+    margin-top: 0;
+    margin-left: -455px;
+    margin-bottom: -70px;
+    position: relative;
+    z-index: 3;
+    width: 180%;
+    background-repeat: no-repeat;
+}
+.deo3{
+	background: url(http://www.startupturkey.com/Images/cut-left.png), url(http://www.startupturkey.com/Images/cut-bottom-right.png) bottom center;
+	background-size: 100% 60px;
+	padding: 160px 0 200px 0;
+	margin-top: -60px;
+	margin-bottom: -60px;
+	position: relative;
+	z-index: 3;
+	width: 100%;
+	background-repeat: no-repeat;
+}
+.button a:hover{
+	background: #de525e;
+	color: #fff;
+	border-color: #de525e;
+}
+.bold{
+	font-family: 'Titillium Web', sans-serif;
+    font-size: 44px;
+    text-align: center;
+    color: #5b5b5b;
+    font-weight: 600;
+    position: relative;
+   margin-left: 400px;
+   border-bottom: 5px solid #c63a46;
+}
+.pss{
+	text-align: center;
+	font-size: 18px;
+	margin-top: 30px;
+	color: #555;
+	font-family: "PT Sans";
+	font-weight: 300;
+	margin-left: 100px;
+
+}
+.deo3 ul li {display: inline-block;
+			margin: 40px -1px;
+			width: 185px;
+			vertical-align: top;}
+.name {font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 10px;}
+  .title {margin-top: 5px;
+  	color: #666;
+  	font-size: 14px;}
+  	.firm{margin-top: 2px;
+  		color: #666;
+  		font-family: "PT Sans", sans-serif;
+  		font-size: 14px;}
+ .btn3{
+ 	background: #c63a46;
+ 	border: 0;
+ 	color: #fff;
+ 	padding: 15px 30px;
+ 	height: auto;
+ 	font-size: 16px;
+ 	font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-left: 590px;
+ }
+ .btn3:hover{
+ 	background: #de525e;
+ 	color: #fff;
+ }
+ .deo4{
+ 	background: url(http://www.startupturkey.com/Images/press-back.jpg) fixed;
+ 	background-size: cover;
+    font-size: 30px;
+    color: #fff;
+    padding: 250px 0;
+    position: relative;
+   
+ }
+ .quote{
+ 	  font-family: 'Titillium Web', sans-serif;
+    font-size: 43px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+    font-weight: 500;
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 100px;
+ }
+ .deo5{
+ 	background: url(http://www.startupturkey.com/Images/cut-left.png), url(http://www.startupturkey.com/Images/cut-bottom-left.png) bottom center;
+ 	background-size: 100% 60px;
+ 	padding: 200px 0;
+    margin-top: -60px;
+    margin-bottom: -60px;
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.deo5 ul li {display: inline-block;
+margin:40px -1px;
+width: 185px;}
+.deo6 {background: url(http://www.startupturkey.com/Images/startups-home-back.jpg) center fixed;
+background-size: cover;
+color: #fff;
+padding: 150px 0;
+position: relative;
+height: 350px;}
+.deo6 h2{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 45px;
+	position: relative;
+	font-weight: 300;
+	z-index: 4;
+	display: inline-block;
+	border-bottom: 4px solid white;
+	margin-left: 450px;
+}
+.dugme a:hover{background: #de525e;
+ 	color: #fff;}
+.deo7{background: url(http://www.startupturkey.com/Images/cut-left.png), url(http://www.startupturkey.com/Images/cut-bottom-left.png) bottom center;
+ 	background-size: 100% 60px;
+ 	padding: 200px 0;
+    margin-top: -60px;
+    margin-bottom: -60px;
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    
+    background-repeat: no-repeat;}
+   .imagec{padding: 20px;}
+  .deo7 a {color: #666;
+  	text-decoration: none;
+  	font-size: 18px;
+  	margin-top: 10px;}
+  .deo7 ul li {list-style: none;
+  	display: inline-block;
+  	padding-top: 20px;
+  	width: 185px;
+  	position: relative;
+  	margin-top: 30px -1px;}
+  	.deo7 ul{
+  		margin-bottom: 10px;
+  	}
+  	.deo7 a:hover {color: #de525e;}
+  	.sponsors{background: url(http://www.startupturkey.com/Images/cut-right.png);
+  		background-size: 100% 60px;
+  		padding: 200px 0;
+  		margin-top: -60px;
+  		    position: relative;
+    z-index: 3;
+    width: 100%;
+    background-repeat: no-repeat;
+  	}
+  	.sponsors ul {text-align: center;
+  					margin-top: 20px;
+  					margin-bottom: 10px;
+  					list-style: none;
+  					padding-left: 0;}
+  	.sponsors ul li {display: inline-block;
+  		margin:30px -1px;
+  		padding: 10px 50px;}
+  .learn{background:url(http://www.startupturkey.com/Images/cut-bottom-left.png),url(http://www.startupturkey.com/Images/cut-left.png) bottom center;
+      background-size: 100% 60px;
+    margin-bottom: -60px;
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 200px;}
+    .learn button:hover{background: #c63a46;
+    	color: #fff;}
+   .medialinks{
+   	    background-color: #272727;
+    background-size: 100% 60px;
+    padding: 50px 0 80px 0;
+    margin-bottom: -60px;
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    background-repeat: no-repeat;
+   }
+   .medialinks ul {text-align: center;
+   					margin-top: 20px;
+   					padding-left: 0;
+   					list-style: none;}
+   	.medialinks ul li {display: inline-block;
+   						margin:30px -1px;
+   						width: 185px;}
+   .kraj{
+   	background: url(http://www.startupturkey.com/Images/footer-back.jpg)top -60px  center fixed ;
+    background-size: cover;
+    color: #fff;
+    padding: 150px 0 50px 0;
+    position: relative;  }
+  .form-control{font-size: 20px;
+    padding: 15px 15px;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    height: auto;
+    width: 440px;
+position: relative;
+z-index: 2;}
+    .form-group{display: inline-block;
+    			margin-bottom: 0;
+    			vertical-align: middle;
+    			position: relative;
+    			z-index: 2;}
+    footer button {border: 0;
+    				font-size: 20px;
+    				padding: 15px 40px;
+    				background: #c63a46;
+    				color: #fff;
+    				height: auto;
+    				cursor: pointer;
+    			font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;}
+  .list-media {text-align: right;
+  				list-style: none;
+  				padding-left: 0;
+  				position: relative;
+  				z-index: 2;
+  				margin-right: 100px;
+  				margin-top: -50px;}
+  .list-media li {display: inline-block;
+  					font-size: 44px;
+  					margin: 0 10px;}
+  .fa{display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+color: white;}
+.footer-section{margin-top: 30px;
+padding-left: 0;
+list-style: none;
+font-family: 'Titillium Web', sans-serif;
+font-size: 24px;
+color: #de525e;
+position: absolute;
+z-index: 2;
+margin-left: 100px;
+
+}
+.lista ul li a{list-style: none;}
+.lista li a  {margin: 5px 0;
+position:absolute; z-index: 2;
+margin-left: 70px;
+color: white;
+margin-top: 70px;
+text-decoration: none;
+font-size: 14px;
+font-family: "PT Sans" sans-serif;}
+.lista2 li a {position: absolute;z-index: 2;
+				margin-left: 300px;
+				color: white;
+				margin-top: -50px;
+				text-decoration: none;
+				font-family: "PT Sans" sans-serif;
+				font-size: 14px;}
+.lista3 li a {position: absolute;z-index: 2;
+				margin-left: 500px;
+				color: white;
+				margin-top: -130px;
+				text-decoration: none;
+				font-family: "PT Sans" sans-serif;
+				font-size: 14px;}
+.lista4 li a{position: absolute;z-index: 2;
+				margin-left: 700px;
+				color: white;
+				margin-top: -190px;
+				text-decoration: none;
+				font-family: "PT Sans" sans-serif;
+				font-size: 14px;}
+.mobidikpro{    float: right;
+	position: absolute;z-index: 2;
+    margin-top: -200px;
+    margin-left:1150px;
+    opacity: .8;}
